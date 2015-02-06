@@ -96,7 +96,7 @@ class Paginator implements ArrayableInterface, ArrayAccess, Countable, IteratorA
 	 * @param  int|null  $perPage
 	 * @return void
 	 */
-	public function __construct(Factory $factory, array $items, $total, $perPage = null)
+	public function __construct($factory, array $items, $total, $perPage = null)
 	{
 		$this->factory = $factory;
 
